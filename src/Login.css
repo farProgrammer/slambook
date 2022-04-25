@@ -1,0 +1,31 @@
+.login > div >img {
+  object-fit: contain;
+  height: 200px;
+  border-radius: 50%;
+ 
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+.login{
+  /* background-image: url(/src/assets/images/sl.png) ; */
+  background-size:cover;
+  display:grid;place-items: center;
+  height:100vh;
+  background-color:rgb(107, 100, 156);
+}
+.login >button{
+  width: 300px;
+  background-color: wheat;
+  color:grey;
+  font-weight:800;
+  
+
+}
+.login >button:hover{
+  background-color: #fff;
+  color:teal;
+
+}
